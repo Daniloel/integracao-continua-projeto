@@ -19,7 +19,7 @@ jobs:
         go-version: '1.22'
 
     - name: Iniciar Banco
-      run: docker-compose up -d postgres
+      run: docker compose up -d postgres
 
    # código omitido
 
